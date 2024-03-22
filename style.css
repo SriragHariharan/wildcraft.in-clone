@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search-container{
+    border: 1px solid black;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+}
+
+.search-container>input{
+    border: none;
+    outline: none;
+}
+
+.navbar-icons-container>span{
+    font-size: 20px;
+    color: salmon;
+    margin-left: 16px;
+}
+
+.product-navbar-item:hover{
+    color: salmon;
+    border-bottom: 4px solid salmon;
+    cursor: pointer;
+}
+
+.offcanvas-item{
+    font-weight: 400;
+    cursor: pointer;
+}
