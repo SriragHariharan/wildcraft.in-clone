@@ -119,6 +119,39 @@
     color: white !important;
 }
 
+.essential-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.essential-image-container img {
+    transition: transform 0.3s ease;
+}
+
+.essential-image-container:hover img {
+    transform: scale(1.05);
+}
+
+.enquiry-title {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.enquiry-content {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.enquiry-link {
+    color: salmon;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
 
 /* CSS for mobile devices (up to 767px) */
 @media only screen and (max-width: 767px) {
@@ -162,35 +195,3 @@
 }
 
 
-.essential-image-container {
-    position: relative;
-    overflow: hidden;
-}
-
-.essential-image-container img {
-    transition: transform 0.3s ease;
-}
-
-.essential-image-container:hover img {
-    transform: scale(1.05);
-}
-
-.enquiry-title{
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.enquiry-content{
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.enquiry-link{
-    color: salmon;
-    font-size: 14px;
-    text-decoration: underline;
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: 500;
-}

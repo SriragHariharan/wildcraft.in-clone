@@ -25,7 +25,7 @@ new Glide('.exclusive-producuts-glide', {
         clickable: true
     },
     breakpoints: {
-        576: {
+        991: {
             perView: 2
         }
     }
@@ -45,7 +45,7 @@ new Glide('.best-sellers-glide', {
         clickable: true
     },
     breakpoints: {
-        576: {
+        991: {
             perView: 2
         }
     }
