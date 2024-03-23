@@ -14,7 +14,7 @@ new Glide('.hero-section-glide', {
 
 new Glide('.exclusive-producuts-glide', {
     type: 'carousel',
-    perView: 3,
+    perView: 4,
     autoplay: 9000,
     hoverpause: true,
     animationDuration: 2000,
@@ -25,9 +25,6 @@ new Glide('.exclusive-producuts-glide', {
         clickable: true
     },
     breakpoints: {
-        768: {
-            perView: 2
-        },
         576: {
             perView: 2
         }

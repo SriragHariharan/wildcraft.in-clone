@@ -106,6 +106,19 @@
     border-radius: 50px;
 }
 
+.essential-title{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+
+.explore-range:hover{
+    background-color: salmon;
+    color: white !important;
+}
+
 
 /* CSS for mobile devices (up to 767px) */
 @media only screen and (max-width: 767px) {
@@ -123,6 +136,7 @@
     }
     .exclusive-products-card{
         width: 11rem;
+        border: none;
     }
 }
 
@@ -142,6 +156,21 @@
         height: 50px;
     }
     .exclusive-products-card {
-        width: 22rem;
+        width: 19rem;
+        border: none;
     }
+}
+
+
+.essential-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.essential-image-container img {
+    transition: transform 0.3s ease;
+}
+
+.essential-image-container:hover img {
+    transform: scale(1.05);
 }
