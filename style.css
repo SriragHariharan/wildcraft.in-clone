@@ -174,3 +174,23 @@
 .essential-image-container:hover img {
     transform: scale(1.05);
 }
+
+.enquiry-title{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.enquiry-content{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.enquiry-link{
+    color: salmon;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
