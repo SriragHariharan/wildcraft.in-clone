@@ -153,6 +153,37 @@
 }
 
 
+/* footer styles */
+.footer-main-container{
+    background-color: rgba(75, 85, 99, 0.075);
+}
+
+.subscription-container{
+    width: 100%;
+}
+
+.subscription-container > input{
+    width: auto;
+    height: auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top:7px;
+    padding-bottom: 6px;
+}
+
+.subscription-container > span {
+    padding: 8px;
+    background-color: salmon;
+    color: white;
+    cursor: pointer;
+}
+
+.accordion-item,
+.accordion-header{
+    background-color: transparent !important;
+    color: inherit;
+}
+
 /* CSS for mobile devices (up to 767px) */
 @media only screen and (max-width: 767px) {
     .hero-carousel {
