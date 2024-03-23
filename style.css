@@ -70,6 +70,42 @@
     height: 50px;
 }
 
+/* exclusives section */
+.exclusives-container{
+    margin-top: 80px;
+}
+
+.exclusives-heading{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* product-card */
+
+.product-card{
+    width: 18rem;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.image-container{
+    width: 100%;
+    position: relative;
+}
+
+.image-container > i {
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    padding: 12px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
 
 /* CSS for mobile devices (up to 767px) */
 @media only screen and (max-width: 767px) {
@@ -80,12 +116,13 @@
     }
     .features-container {
         width: 100vw;
-        height: 100vh;
-        /* margin-top: -450px; */
     }
     .feature-col>img {
         width: 30px;
         height: 30px;
+    }
+    .exclusive-products-card{
+        width: 11rem;
     }
 }
 
@@ -98,11 +135,13 @@
     }
     .features-container{
         width: 80vw;
-        height: 100vh;
         margin-top: 250px;
     }
     .feature-col>img {
         width: 50px;
         height: 50px;
+    }
+    .exclusive-products-card {
+        width: 22rem;
     }
 }
